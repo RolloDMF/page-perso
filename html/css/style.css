@@ -8,6 +8,7 @@ h1{
 nav{
     background-color: #304153;
     border-radius: 10px;
+    margin-top: 3%;
 }
 nav ul li { 
     display : inline;
@@ -20,6 +21,9 @@ nav ul li a{
 nav ul {
     list-style-type : none;
     }
+#part1{
+    padding-right: 0;
+}
 #part1 h2{
     background-color: #304153;
     color: white;
@@ -32,6 +36,9 @@ nav ul {
 #part2 h2, .date{
     background-color: #1EBFF3;
     border-radius: 10px;
+}
+.part2{
+    padding-right: 0;
 }
 hr{
     border-top: 3px solid;
@@ -76,4 +83,7 @@ div .round canvas{
 .box{
     margin-top: 5%;
     margin-bottom: 5%;
+}
+li p a, li h3 a{
+    color: #1EBFF3;
 }
