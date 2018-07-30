@@ -1,0 +1,79 @@
+header{
+    background-color: #F3F3F3;
+    color: #304153;
+}
+h1{
+    color: #304153;
+}
+nav{
+    background-color: #304153;
+    border-radius: 10px;
+}
+nav ul li { 
+    display : inline;
+    padding : 0 0.5em;
+    }
+nav ul li a{
+    color: white;
+    display: block;
+}
+nav ul {
+    list-style-type : none;
+    }
+#part1 h2{
+    background-color: #304153;
+    color: white;
+}
+#part2{
+    background-color: #304153;
+    color: white;
+    padding-bottom: 10%;
+}
+#part2 h2, .date{
+    background-color: #1EBFF3;
+    border-radius: 10px;
+}
+hr{
+    border-top: 3px solid;
+    border-color:  #3699DC;
+    margin: auto;
+    margin-right: 0;
+}
+.title{
+    padding-top: 5%;
+}
+h3{
+    display: inline-block;
+    margin-right: 5%;
+}
+.network{
+    width:25px;
+    height:25px;
+}
+.about-me{
+    font-weight: bold;
+}
+.picture{
+    width: 30%;
+}
+div .round{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+div .round span{
+    position: absolute;
+    top: 38px; left: 34px;
+    text-align: center;
+}
+div .round canvas{
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+.skill{
+    text-align: center;
+}
+.box{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
